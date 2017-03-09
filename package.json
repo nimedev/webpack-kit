@@ -41,15 +41,17 @@
     "svg-sprite-loader": "0.3.0",
     "ts-loader": "2.0.1",
     "tslint-loader": "3.4.3",
-    "url-loader": "0.5.8",
-    "webpack": "2.2.1",
-    "webpack-dev-server": "2.4.1"
+    "url-loader": "0.5.8"
   },
   "devDependencies": {
     "eslint": "3.17.1",
     "eslint-config-nimedev-base": "2.4.1",
     "eslint-plugin-import": "2.2.0",
     "pre-commit": "1.2.2"
+  },
+  "peerDependencies": {
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
   },
   "eslintConfig": {
     "extends": "nimedev-base"

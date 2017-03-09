@@ -3,12 +3,10 @@
  * @member webpack.parts
  */
 
-const webpack = require('webpack')
-
 /**
  * Configurations for UglifyJsPlugin
  */
-module.exports = () => ({
+module.exports = webpack => ({
   plugins: [
     new webpack.optimize.UglifyJsPlugin({
       compress: {

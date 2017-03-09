@@ -2,8 +2,6 @@
  * @module extract-bundles
  */
 
-const webpack = require('webpack')
-
 const isVendor = (module) => {
   const userRequest = module.userRequest
 
@@ -15,7 +13,7 @@ const isVendor = (module) => {
 /**
  * Configuration for splitting bundles
  */
-module.exports = () => ({
+module.exports = webpack => ({
   plugins: [
     // Extract bundles.
     new webpack.optimize.CommonsChunkPlugin({

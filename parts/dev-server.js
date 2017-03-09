@@ -2,12 +2,10 @@
  * @module dev-server
  */
 
-const webpack = require('webpack')
-
 /**
  * Configuration for webpack-dev-server
  */
-module.exports = ({ host, port }) => ({
+module.exports = (webpack, { host, port }) => ({
   devServer: {
     contentBase: './app',
 
