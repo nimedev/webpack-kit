@@ -10,6 +10,10 @@
 ## Installation
 
 ```sh
+# Install required packages
+$ npm install webpack webpack-dev-server -D
+
+# Install webpack-parts-nimedev
 $ npm install webpack-parts-nimedev -D
 ```
 
