@@ -1,6 +1,5 @@
 /**
  * @module load-ts
- * @member webpack.parts
  */
 
 /**

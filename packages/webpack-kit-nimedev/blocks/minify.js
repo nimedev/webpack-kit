@@ -1,6 +1,5 @@
 /**
  * @module minify
- * @member webpack.parts
  */
 
 /**

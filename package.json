@@ -1,17 +1,16 @@
 {
-  "name": "webpack-parts-nimedev",
-  "version": "1.2.0",
-  "description": "Configuration parts to use in webpack config.",
-  "main": "index.js",
+  "name": "webpack-kit",
+  "version": "2.0.0",
+  "description": "Configuration block to use in webpack config.",
   "scripts": {
-    "lint": "eslint . --ext .js"
+    "lint": "cd packages/webpack-kit-nimedev && npm run lint"
   },
   "pre-commit": [
     "lint"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nimedev/webpack-parts-nimedev.git"
+    "url": "https://github.com/nimedev/webpack-kit.git"
   },
   "keywords": [
     "webpack",
@@ -20,38 +19,15 @@
   "author": "Nicolás Mejía Correa <nicolasmejiaco@gmail.com> (https://twitter.com/nimedev)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nimedev/webpack-parts-nimedev/issues"
+    "url": "https://github.com/nimedev/webpack-kit/issues"
   },
-  "homepage": "https://github.com/nimedev/webpack-parts-nimedev#readme",
+  "homepage": "https://github.com/nimedev/webpack-kit#readme",
   "engines": {
     "npm": ">=3.10",
     "node": ">=6.10 <7.0.0"
   },
-  "dependencies": {
-    "babel-loader": "6.4.0",
-    "clean-webpack-plugin": "0.1.15",
-    "css-loader": "0.26.4",
-    "eslint-loader": "1.6.3",
-    "extract-text-webpack-plugin": "2.1.0",
-    "file-loader": "0.10.1",
-    "html-loader": "0.4.5",
-    "html-webpack-plugin": "2.28.0",
-    "postcss-loader": "1.3.3",
-    "style-loader": "0.13.2",
-    "svg-sprite-loader": "0.3.0",
-    "ts-loader": "2.0.1",
-    "tslint-loader": "3.4.3",
-    "url-loader": "0.5.8"
-  },
   "devDependencies": {
-    "eslint": "3.17.1",
-    "eslint-config-nimedev-base": "2.4.1",
-    "eslint-plugin-import": "2.2.0",
     "pre-commit": "1.2.2"
-  },
-  "peerDependencies": {
-    "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.4.1"
   },
   "eslintConfig": {
     "extends": "nimedev-base"

@@ -1,21 +1,11 @@
-# webpack-parts-nimedev
-[![npm][npm-image]][npm-url]
+# webpack-kit
 
-[npm-image]: https://img.shields.io/npm/v/webpack-parts-nimedev.svg
-[npm-url]: https://npmjs.org/package/webpack-parts-nimedev
-
-> Configuration parts to use in [webpack config](https://webpack.js.org/configuration/).
+> Configuration blocks to use in [webpack config](https://webpack.js.org/configuration/).
 
 
-## Installation
+## Modules
 
-```sh
-# Install required packages
-$ npm install webpack webpack-dev-server -D
-
-# Install webpack-parts-nimedev
-$ npm install webpack-parts-nimedev -D
-```
+ - Base blocks [webpack-kit-nimedev](packages/webpack-kit-nimedev/README.md)
 
 
 ## [Contributing](CONTRIBUTING.md)
