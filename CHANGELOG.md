@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.2.0] - 2017-03-09
+
+### Added
+- Add test option to load-js module.
+
+
 ## [1.1.1] - 2017-03-09
 
 ### Modified

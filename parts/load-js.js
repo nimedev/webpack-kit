@@ -5,17 +5,17 @@
 /**
  * Configuration for JavaScript linter and loader
  */
-module.exports = ({ include, eslintOptions }) => ({
+module.exports = ({ include, eslintOptions, test = /\.js$/ }) => ({
   module: {
     rules: [{
-      test: /\.js$/,
+      test,
       include,
       enforce: 'pre',
 
       loader: 'eslint-loader',
       options: eslintOptions
     }, {
-      test: /\.js$/,
+      test,
       include,
 
       loader: 'babel-loader',
