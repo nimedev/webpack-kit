@@ -3,7 +3,9 @@
   "version": "2.0.0",
   "description": "Configuration block to use in webpack config.",
   "scripts": {
-    "lint": "cd packages/webpack-kit-nimedev && npm run lint"
+    "lint": "npm run lint:base && npm run lint:ts",
+    "lint:base": "cd packages/webpack-kit-nimedev-base && npm run lint",
+    "lint:ts": "cd packages/webpack-kit-nimedev-ts && npm run lint"
   },
   "pre-commit": [
     "lint"

@@ -5,7 +5,8 @@
 
 ## Modules
 
- - Base blocks [webpack-kit-nimedev](packages/webpack-kit-nimedev/README.md)
+ - Base blocks [webpack-kit-nimedev-base](packages/webpack-kit-nimedev-base/README.md)
+ - TypeScript project blocks [webpack-kit-nimedev-ts](packages/webpack-kit-nimedev-ts/README.md)
 
 
 ## [Contributing](CONTRIBUTING.md)
