@@ -1,6 +1,6 @@
 {
   "name": "webpack-kit-nimedev-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Configuration parts to use in webpack config for TypeScript projects.",
   "main": "index.js",
   "scripts": {
