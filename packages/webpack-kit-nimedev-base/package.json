@@ -1,5 +1,5 @@
 {
-  "name": "webpack-kit-nimedev",
+  "name": "webpack-kit-nimedev-base",
   "version": "1.0.0",
   "description": "Base configuration parts to use in webpack config.",
   "main": "index.js",
