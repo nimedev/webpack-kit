@@ -1,5 +1,11 @@
 # Change Log
 
+## [2.0.0] - 2017-03-09
+
+### Added
+- Implement webpack-kit-nimedev-base and webpack-kit-nimedev-ts packages.
+
+
 ## [1.2.0] - 2017-03-09
 
 ### Added
