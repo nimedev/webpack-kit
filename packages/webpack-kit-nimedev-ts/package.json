@@ -1,6 +1,6 @@
 {
   "name": "webpack-kit-nimedev-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Configuration parts to use in webpack config for TypeScript projects.",
   "main": "index.js",
   "scripts": {
@@ -26,9 +26,9 @@
     "node": ">=6.10 <7.0.0"
   },
   "dependencies": {
-    "ts-loader": "2.0.1",
+    "ts-loader": "2.0.3",
     "tslint-loader": "3.4.3",
-    "webpack-kit-nimedev-base": "1.0.0"
+    "webpack-kit-nimedev-base": "1.2.0"
   },
   "devDependencies": {
     "eslint": "3.19.0",
