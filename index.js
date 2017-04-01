@@ -1,6 +1,6 @@
 /**
  * Group blocks of webpack configurations
- * @module webpack-kit-nimedev-base
+ * @module webpack-kit-nimedev
  */
 
 const cleanPlugin = require('./blocks/clean-plugin')

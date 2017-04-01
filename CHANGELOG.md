@@ -1,5 +1,14 @@
 # Change Log
 
+## [3.0.0] - 2017-04-01
+
+### Modified
+- Move all to root project and use webpack-kit-nimedev package to publish.
+
+### Deprecated
+- Remove webpack-kit-nimedev-base and webpack-kit-nimedev-ts packages.
+
+
 ## [2.0.0] - 2017-03-09
 
 ### Added

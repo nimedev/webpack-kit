@@ -1,12 +1,21 @@
 # webpack-kit
+[![npm][npm-image]][npm-url]
 
-> Configuration blocks to use in [webpack config](https://webpack.js.org/configuration/).
+[npm-image]: https://img.shields.io/npm/v/webpack-kit-nimedev.svg
+[npm-url]: https://npmjs.org/package/webpack-kit-nimedev
+
+> Base configuration blocks to use in [webpack config](https://webpack.js.org/configuration/).
 
 
-## Modules
+## Installation
 
- - Base blocks [webpack-kit-nimedev-base](packages/webpack-kit-nimedev-base/README.md)
- - TypeScript project blocks [webpack-kit-nimedev-ts](packages/webpack-kit-nimedev-ts/README.md)
+```sh
+# Install peer dependencies
+$ npm install babel-core eslint webpack webpack-dev-server -D
+
+# Install webpack-kit-nimedev
+$ npm install webpack-kit-nimedev -D
+```
 
 
 ## [Contributing](CONTRIBUTING.md)
