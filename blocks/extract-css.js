@@ -18,10 +18,10 @@ module.exports = ({ include }) => ({
         include,
 
         loader: ExtractTextPlugin.extract({
-          fallbackLoader: 'style-loader',
-          loader: [{
+          fallback: 'style-loader',
+          use: [{
             loader: 'css-loader',
-            query: {
+            options: {
               import: false,
               importLoaders: 1,
 
