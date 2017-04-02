@@ -1,5 +1,12 @@
 # Change Log
 
+## [4.1.0] - 2017-04-02
+
+### Modified
+- Use process.env.NODE_ENV to indicate when minify the CSS in loadCSS and extractCSS blocks.
+- Add useExportsLoader option in loadCSS block to indicote if use style-loader or exports-loader.
+
+
 ## [4.0.1] - 2017-04-01
 
 ### Fixed

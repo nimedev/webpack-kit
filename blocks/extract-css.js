@@ -4,6 +4,13 @@
 
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
+const minimize = {
+  reduceIdents: {
+    keyframes: false
+  },
+  zindex: false
+}
+
 /**
  * Configurations for ExtractTextPlugin
  */
@@ -26,12 +33,7 @@ module.exports = ({ include }) => ({
               importLoaders: 1,
 
               // Use css nano options
-              minimize: {
-                reduceIdents: {
-                  keyframes: false
-                },
-                zindex: false
-              }
+              minimize: process.env.NODE_ENV === 'production' ? minimize : false
             }
           }, 'postcss-loader']
         })
