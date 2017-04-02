@@ -1,5 +1,12 @@
 # Change Log
 
+## [4.0.0] - 2017-04-01
+
+### Modified
+- Implement extractVendor instead extractBundles block.
+- Update ExtractTextPlugin options in extract-css block.
+
+
 ## [3.0.0] - 2017-04-01
 
 ### Modified

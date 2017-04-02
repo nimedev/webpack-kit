@@ -5,7 +5,7 @@
 
 const cleanPlugin = require('./blocks/clean-plugin')
 const devServer = require('./blocks/dev-server')
-const extractBundles = require('./blocks/extract-bundles')
+const extractVendor = require('./blocks/extract-vendor')
 const extractCSS = require('./blocks/extract-css')
 const generateSourcemaps = require('./blocks/generate-sourcemaps')
 const htmlPlugin = require('./blocks/html-plugin')
@@ -22,7 +22,7 @@ const minify = require('./blocks/minify')
 module.exports = {
   cleanPlugin,
   devServer,
-  extractBundles,
+  extractVendor,
   extractCSS,
   generateSourcemaps,
   htmlPlugin,
