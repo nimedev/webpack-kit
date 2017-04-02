@@ -1,5 +1,11 @@
 # Change Log
 
+## [4.0.1] - 2017-04-01
+
+### Fixed
+- Optional pass options in extractVendor block.
+
+
 ## [4.0.0] - 2017-04-01
 
 ### Modified
