@@ -2,18 +2,10 @@
  * @module lint-css
  */
 
-module.exports = (stylelint, { include }) => ({
-  module: {
-    rules: [{
-      test: /\.css$/,
-      include,
-      enforce: 'pre',
+const StyleLintPlugin = require('stylelint-webpack-plugin')
 
-      loader: 'postcss-loader',
-      options: {
-        ident: 'postcss',
-        plugins: () => [stylelint]
-      }
-    }]
-  }
+module.exports = options => ({
+  plugins: [
+    new StyleLintPlugin(options)
+  ]
 })

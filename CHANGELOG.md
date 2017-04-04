@@ -1,5 +1,11 @@
 # Change Log
 
+## [6.0.0] - 2017-04-04
+
+### Modified
+- Breaking: Use StyleLintPlugin in lintCSS block.
+
+
 ## [5.0.0] - 2017-04-04
 
 ### Added

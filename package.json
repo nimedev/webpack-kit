@@ -1,6 +1,6 @@
 {
   "name": "webpack-kit-nimedev",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "Configuration block to use in webpack config.",
   "main": "index.js",
   "scripts": {
@@ -38,6 +38,7 @@
     "html-webpack-plugin": "2.28.0",
     "postcss-loader": "1.3.3",
     "style-loader": "0.16.1",
+    "stylelint-webpack-plugin": "0.7.0",
     "svg-sprite-loader": "0.3.0",
     "url-loader": "0.5.8"
   },
@@ -47,12 +48,14 @@
     "eslint-config-nimedev-base": "2.4.1",
     "eslint-plugin-import": "2.2.0",
     "pre-commit": "1.2.2",
+    "stylelint": "7.10.1",
     "webpack": "2.3.3",
     "webpack-dev-server": "2.4.2"
   },
   "peerDependencies": {
     "babel-core": "^6.24.0",
     "eslint": "^3.19.0",
+    "stylelint": "^7.10.1",
     "webpack": "^2.3.3",
     "webpack-dev-server": "^2.4.2"
   },
