@@ -1,5 +1,18 @@
 # Change Log
 
+## [5.0.0] - 2017-04-04
+
+### Added
+- Add sortChunk function to htmlPlugin block.
+
+### Deleted
+- Breaking: remove cleanPlugin, generateSourcemaps and minify blocks.
+
+### Updated
+- Upgrade dep: file-loader.
+- Upgrade devDep: babel-core and webpack.
+
+
 ## [4.1.0] - 2017-04-02
 
 ### Modified
