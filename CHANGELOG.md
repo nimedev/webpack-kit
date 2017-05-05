@@ -1,5 +1,15 @@
 # Change Log
 
+## [7.0.0] - 2017-05-05
+
+### Mofified
+- Breaking: Add options to loadFont, loadImage and loadSvgSprite blocks.
+
+### Updated
+- Upgrade dep: babel-loader css-loader style-loader svg-sprite-loader.
+- Upgrade devDep: babel-core eslint-config-nimedev-base webpack webpack-dev-server.
+
+
 ## [6.0.0] - 2017-04-04
 
 ### Modified

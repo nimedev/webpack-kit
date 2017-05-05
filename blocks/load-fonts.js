@@ -7,7 +7,7 @@
 /**
  * Configuration of loader for fonts
  */
-module.exports = ({ include }) => ({
+module.exports = ({ include, woffOptions = {} }) => ({
   module: {
     rules: [{
       test: /\.woff2?$/,
@@ -16,11 +16,11 @@ module.exports = ({ include }) => ({
       // Inline small woff files and output them below font/.
       // Set mimetype just in case.
       loader: 'url-loader',
-      options: {
+      options: Object.assign({
         name: './assets/fonts/[name].[hash].[ext]',
         limit: 50000,
         mimetype: 'application/font-woff'
-      }
+      }, woffOptions)
     }, {
       test: /\.(ttf|svg|eot)$/,
       include,

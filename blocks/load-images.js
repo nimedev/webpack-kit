@@ -7,7 +7,7 @@
 /**
  * Configuration of loader for images
  */
-module.exports = ({ include, exclude, options } = {}) => ({
+module.exports = ({ include, exclude, options = {} } = {}) => ({
   module: {
     rules: [{
       test: /\.(jpg|png|svg)$/,
@@ -15,7 +15,10 @@ module.exports = ({ include, exclude, options } = {}) => ({
       exclude,
 
       loader: 'url-loader',
-      options
+      options: Object.assign({
+        name: './assets/images/[name].[hash].[ext]',
+        limit: 25000
+      }, options)
     }]
   }
 })
