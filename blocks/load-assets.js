@@ -2,6 +2,8 @@
  * @module load-assets
  */
 
+'use strict'
+
 /**
  * Configure file-loader to load some assets
  */

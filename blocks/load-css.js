@@ -2,6 +2,8 @@
  * @module load-css
  */
 
+'use strict'
+
 const minimize = {
   reduceIdents: {
     keyframes: false

@@ -2,6 +2,8 @@
  * @module load-html
  */
 
+'use strict'
+
 /**
  * Configure html-loader to load html files.
  */

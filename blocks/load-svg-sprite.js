@@ -2,6 +2,8 @@
  * @module load-svg-sprite
  */
 
+'use strict'
+
 /**
  * Configuration of loader for svg sprites
  */

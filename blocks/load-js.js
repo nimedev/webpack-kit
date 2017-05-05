@@ -2,6 +2,8 @@
  * @module load-js
  */
 
+'use strict'
+
 /**
  * Configuration for JavaScript linter and loader
  */

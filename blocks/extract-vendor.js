@@ -2,6 +2,8 @@
  * @module extract-vendor
  */
 
+'use strict'
+
 const isVendor = module => /node_modules/.test(module.resource)
 
 /**

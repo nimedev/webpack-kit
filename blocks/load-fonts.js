@@ -2,6 +2,8 @@
  * @module load-fonts
  */
 
+'use strict'
+
 /**
  * Configuration of loader for fonts
  */

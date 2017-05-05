@@ -2,6 +2,8 @@
  * @module load-images
  */
 
+'use strict'
+
 /**
  * Configuration of loader for images
  */

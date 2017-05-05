@@ -2,6 +2,8 @@
  * @module html-plugin
  */
 
+'use strict'
+
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const sortChunk = packages => (left, right) => {

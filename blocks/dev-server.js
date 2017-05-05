@@ -2,6 +2,8 @@
  * @module dev-server
  */
 
+'use strict'
+
 /**
  * Configuration for webpack-dev-server
  */

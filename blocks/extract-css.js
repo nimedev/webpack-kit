@@ -2,6 +2,8 @@
  * @module extract-css
  */
 
+'use strict'
+
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 const minimize = {

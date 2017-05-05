@@ -3,6 +3,8 @@
  * @module webpack-kit-nimedev
  */
 
+'use strict'
+
 const devServer = require('./blocks/dev-server')
 const extractVendor = require('./blocks/extract-vendor')
 const extractCSS = require('./blocks/extract-css')
