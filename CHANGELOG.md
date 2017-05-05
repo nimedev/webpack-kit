@@ -1,5 +1,11 @@
 # Change Log
 
+## [7.0.1] - 2017-05-05
+
+### Fixed
+- Downgrade svg-sprite-loader.
+
+
 ## [7.0.0] - 2017-05-05
 
 ### Mofified
