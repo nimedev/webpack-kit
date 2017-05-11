@@ -1,5 +1,12 @@
 # Change Log
 
+## [7.0.2] - 2017-05-11
+
+### Updated
+- Upgrade dep: postcss-loader.
+- Upgrade devDep: webpack.
+
+
 ## [7.0.1] - 2017-05-05
 
 ### Fixed
