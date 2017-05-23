@@ -1,6 +1,6 @@
 {
   "name": "webpack-kit-nimedev",
-  "version": "7.0.2",
+  "version": "8.0.0",
   "description": "Configuration block to use in webpack config.",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "babel-loader": "7.0.0",
+    "copy-webpack-plugin": "4.0.1",
     "css-loader": "0.28.2",
     "eslint-loader": "1.7.1",
     "exports-loader": "0.6.4",

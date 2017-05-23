@@ -1,5 +1,18 @@
 # Change Log
 
+## [8.0.0] - 2017-05-23
+
+### Added
+- Add copyPlugin block.
+
+### Delete
+- [Breaking Change] Remove load-assets block.
+
+### Updated
+- Upgrade dep: css-loader style-loader.
+- Upgrade devDep: webpack.
+
+
 ## [7.0.2] - 2017-05-11
 
 ### Updated
