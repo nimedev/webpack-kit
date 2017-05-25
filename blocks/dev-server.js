@@ -7,9 +7,9 @@
 /**
  * Configuration for webpack-dev-server
  */
-module.exports = (webpack, { host, port }) => ({
+module.exports = (webpack, { host, port, contentBase = './src' }) => ({
   devServer: {
-    contentBase: './app',
+    contentBase,
 
     // Enable history API fallback so HTML5 History API based
     // routing works. This is a good default that will come

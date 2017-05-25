@@ -1,5 +1,15 @@
 # Change Log
 
+## [9.0.0] - 2017-05-25
+
+### Modified
+- [Breaking change] change default value of contentBase in webpack-dev-server.
+- Add contentBase in options of devServer block.
+
+### Updated
+- Upgrade devDep: eslint-config-nimedev-base eslint-plugin-import webpack.
+
+
 ## [8.0.0] - 2017-05-23
 
 ### Added
