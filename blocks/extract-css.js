@@ -8,9 +8,9 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 const minimize = {
   reduceIdents: {
-    keyframes: false
+    keyframes: false,
   },
-  zindex: false
+  zindex: false,
 }
 
 /**
@@ -35,15 +35,15 @@ module.exports = ({ include }) => ({
               importLoaders: 1,
 
               // Use css nano options
-              minimize: process.env.NODE_ENV === 'production' ? minimize : false
-            }
-          }, 'postcss-loader']
-        })
-      }
-    ]
+              minimize: process.env.NODE_ENV === 'production' ? minimize : false,
+            },
+          }, 'postcss-loader'],
+        }),
+      },
+    ],
   },
   plugins: [
     // Output extracted CSS to a file
-    new ExtractTextPlugin('styles.[contenthash].css')
-  ]
+    new ExtractTextPlugin('styles.[contenthash].css'),
+  ],
 })

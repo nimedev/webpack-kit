@@ -16,8 +16,8 @@ module.exports = ({ include, exclude, options = {} } = {}) => ({
 
       loader: 'svg-sprite-loader',
       options: Object.assign({
-        name: './assets/icons/[name].[hash].[ext]'
-      }, options)
-    }]
-  }
+        name: './assets/icons/[name].[hash].[ext]',
+      }, options),
+    }],
+  },
 })

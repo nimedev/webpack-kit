@@ -17,8 +17,8 @@ module.exports = ({ include, exclude, options = {} } = {}) => ({
       loader: 'url-loader',
       options: Object.assign({
         name: './assets/images/[name].[hash].[ext]',
-        limit: 25000
-      }, options)
-    }]
-  }
+        limit: 25000,
+      }, options),
+    }],
+  },
 })

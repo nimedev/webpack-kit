@@ -26,8 +26,8 @@ module.exports = (options = {}, packages) => ({
     new HtmlWebpackPlugin(Object.assign(
       options,
       {
-        chunksSortMode: packages ? sortChunk(packages) : 'auto'
+        chunksSortMode: packages ? sortChunk(packages) : 'auto',
       }
-    ))
-  ]
+    )),
+  ],
 })

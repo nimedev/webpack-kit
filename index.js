@@ -30,5 +30,5 @@ module.exports = {
   loadHtml,
   loadImages,
   loadJS,
-  loadSvgSprite
+  loadSvgSprite,
 }

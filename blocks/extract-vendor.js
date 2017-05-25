@@ -15,7 +15,7 @@ module.exports = (webpack, { chunks, name = 'vendor', minChunks = isVendor } = {
     new webpack.optimize.CommonsChunkPlugin({
       chunks,
       name,
-      minChunks
-    })
-  ]
+      minChunks,
+    }),
+  ],
 })

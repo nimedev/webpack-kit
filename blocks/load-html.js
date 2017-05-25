@@ -13,7 +13,7 @@ module.exports = ({ include }) => ({
       test: /\.html$/,
       include,
 
-      use: 'html-loader'
-    }]
-  }
+      use: 'html-loader',
+    }],
+  },
 })

@@ -15,7 +15,7 @@ module.exports = ({ include, eslintOptions, test = /\.js$/ }) => ({
       enforce: 'pre',
 
       loader: 'eslint-loader',
-      options: eslintOptions
+      options: eslintOptions,
     }, {
       test,
       include,
@@ -27,8 +27,8 @@ module.exports = ({ include, eslintOptions, test = /\.js$/ }) => ({
         // It uses default OS directory by default. If you need
         // something more custom, pass a path to it.
         // I.e., { cacheDirectory: '<path>' }
-        cacheDirectory: true
-      }
-    }]
-  }
+        cacheDirectory: true,
+      },
+    }],
+  },
 })
