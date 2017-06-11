@@ -1,5 +1,12 @@
 # Change Log
 
+## [9.0.1] - 2017-06-11
+
+### Updated
+- Upgrade dep: css-loader extract-text-webpack-plugin file-loader style-loader.
+- Upgrade devDep: babel-core eslint-config-nimedev-base stylelint.
+
+
 ## [9.0.0] - 2017-05-25
 
 ### Modified
