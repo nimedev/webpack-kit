@@ -1,5 +1,12 @@
 # Change Log
 
+## [9.1.0] - 2017-06-20
+
+### Updated
+- Upgrade dep: babel-loader eslint-loader postcss-loader url-loader.
+- Upgrade devDep: stylelint webpack webpack-dev-server.
+
+
 ## [9.0.1] - 2017-06-11
 
 ### Updated
