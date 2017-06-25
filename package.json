@@ -1,6 +1,6 @@
 {
   "name": "webpack-kit-nimedev",
-  "version": "9.1.0",
+  "version": "9.2.0",
   "description": "Configuration block to use in webpack config.",
   "main": "index.js",
   "scripts": {
@@ -33,10 +33,10 @@
     "extract-text-webpack-plugin": "2.1.2",
     "file-loader": "0.11.2",
     "html-loader": "0.4.5",
-    "html-webpack-plugin": "2.28.0",
+    "html-webpack-plugin": "2.29.0",
     "postcss-loader": "2.0.6",
     "style-loader": "0.18.2",
-    "stylelint-webpack-plugin": "0.7.0",
+    "stylelint-webpack-plugin": "0.7.1",
     "svg-sprite-loader": "0.3.1",
     "url-loader": "0.5.9"
   },
