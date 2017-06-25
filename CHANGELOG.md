@@ -1,5 +1,21 @@
 # Change Log
 
+## [9.2.1] - 2017-06-25
+
+### Fixed
+- Fix CHANGELOG file.
+
+
+## [9.2.0] - 2017-06-25
+
+### Deleted
+- Remove pre-commit hook.
+
+### Updated
+- Upgrade dep: html-webpack-plugin stylelint-webpack-plugin.
+- Upgrade devDep: eslint eslint-config-nimedev-base eslint-plugin-import.
+
+
 ## [9.1.0] - 2017-06-20
 
 ### Updated
