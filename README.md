@@ -11,7 +11,7 @@
 
 ```sh
 # Install peer dependencies
-$ npm install babel-core eslint webpack webpack-dev-server -D
+$ npm install eslint stylelint webpack webpack-dev-server -D
 
 # Install webpack-kit-nimedev
 $ npm install webpack-kit-nimedev -D

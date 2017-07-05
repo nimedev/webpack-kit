@@ -1,5 +1,15 @@
 # Change Log
 
+## [10.0.0] - 2017-07-05
+
+### Deleted
+- [Breaking change] Delete loadJS module.
+
+### Updated
+- Upgrade dep: stylelint-webpack-plugin.
+- Upgrade devDep: eslint eslint-plugin-import stylelint.
+
+
 ## [9.2.1] - 2017-06-25
 
 ### Fixed

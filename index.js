@@ -15,7 +15,6 @@ const loadCSS = require('./blocks/load-css')
 const loadFonts = require('./blocks/load-fonts')
 const loadHtml = require('./blocks/load-html')
 const loadImages = require('./blocks/load-images')
-const loadJS = require('./blocks/load-js')
 const loadSvgSprite = require('./blocks/load-svg-sprite')
 
 module.exports = {
@@ -29,6 +28,5 @@ module.exports = {
   loadFonts,
   loadHtml,
   loadImages,
-  loadJS,
   loadSvgSprite,
 }
