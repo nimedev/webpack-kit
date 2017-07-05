@@ -42,16 +42,16 @@
   },
   "devDependencies": {
     "babel-core": "6.25.0",
-    "eslint": "4.1.0",
+    "eslint": "4.1.1",
     "eslint-config-nimedev-base": "5.1.0",
-    "eslint-plugin-import": "2.6.0",
-    "stylelint": "7.11.1",
+    "eslint-plugin-import": "2.6.1",
+    "stylelint": "7.12.0",
     "webpack": "3.0.0",
     "webpack-dev-server": "2.5.0"
   },
   "peerDependencies": {
     "babel-core": "^6.25.0",
-    "eslint": "^4.1.0",
+    "eslint": "^4.1.1",
     "stylelint": "^7.11.1",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.5.0"
