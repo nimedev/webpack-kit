@@ -24,7 +24,6 @@ module.exports = ({ include, woffOptions = {} }) => ({
     }, {
       test: /\.(ttf|svg|eot)$/,
       include,
-
       loader: 'file-loader',
       options: {
         name: './assets/fonts/[name].[hash].[ext]',

@@ -12,7 +12,6 @@ module.exports = ({ include }) => ({
     rules: [{
       test: /\.html$/,
       include,
-
       use: 'html-loader',
     }],
   },

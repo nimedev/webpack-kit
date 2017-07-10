@@ -13,11 +13,8 @@ module.exports = ({ include, exclude, options = {} } = {}) => ({
       test: /\.svg$/,
       include,
       exclude,
-
       loader: 'svg-sprite-loader',
-      options: Object.assign({
-        name: './assets/icons/[name].[hash].[ext]',
-      }, options),
+      options,
     }],
   },
 })

@@ -22,10 +22,7 @@ module.exports = ({ include }) => ({
       // Extract CSS during build
       {
         test: /\.css$/,
-        // Restrict extraction process to the given
-        // paths.
-        include,
-
+        include, // Restrict extraction process to the given paths.
         loader: ExtractTextPlugin.extract({
           fallback: 'style-loader',
           use: [{

@@ -1,5 +1,12 @@
 # Change Log
 
+## [11.0.0] - 2017-07-10
+
+### Updated dependencies
+- [Breaking change] Update svg-sprite-loader.
+- Upgrade devDep: eslint eslint-plugin-import webpack webpack-dev-server.
+
+
 ## [10.0.0] - 2017-07-05
 
 ### Deleted

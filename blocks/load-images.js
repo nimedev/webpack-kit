@@ -13,7 +13,6 @@ module.exports = ({ include, exclude, options = {} } = {}) => ({
       test: /\.(jpg|png|svg)$/,
       include,
       exclude,
-
       loader: 'url-loader',
       options: Object.assign({
         name: './assets/images/[name].[hash].[ext]',

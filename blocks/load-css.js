@@ -18,10 +18,7 @@ module.exports = ({ include, useExportsLoader = false }) => ({
   module: {
     rules: [{
       test: /\.css$/,
-      // Restrict extraction process to the given
-      // paths.
-      include,
-
+      include, // Restrict extraction process to the given paths.
       use: [
         useExportsLoader ? 'exports-loader?module.exports.toString()' : 'style-loader',
         {
