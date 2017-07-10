@@ -1,6 +1,6 @@
 {
   "name": "webpack-kit-nimedev",
-  "version": "11.0.0",
+  "version": "11.0.1",
   "description": "Configuration block to use in webpack config.",
   "main": "index.js",
   "scripts": {
@@ -47,7 +47,6 @@
     "webpack-dev-server": "2.5.1"
   },
   "peerDependencies": {
-    "eslint": "^4.2.0",
     "stylelint": "^7.11.1",
     "webpack": "^3.1.0",
     "webpack-dev-server": "^2.5.1"

@@ -1,5 +1,11 @@
 # Change Log
 
+## [11.0.1] - 2017-07-1
+
+### Deleted
+- Remove eslint from peerDependencies.
+
+
 ## [11.0.0] - 2017-07-10
 
 ### Updated dependencies
