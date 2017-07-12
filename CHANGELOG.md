@@ -1,5 +1,12 @@
 # Change Log
 
+## [11.0.2] - 2017-07-12
+
+### Updated
+- Upgrade dep: extract-text-webpack-plugin.
+- Upgrade devDep: stylelint webpack.
+
+
 ## [11.0.1] - 2017-07-1
 
 ### Deleted
