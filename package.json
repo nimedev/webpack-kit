@@ -1,6 +1,6 @@
 {
   "name": "webpack-kit-nimedev",
-  "version": "11.0.2",
+  "version": "11.0.3",
   "description": "Configuration block to use in webpack config.",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/nimedev/webpack-kit#readme",
   "engines": {
-    "npm": ">=5.0.0",
-    "node": ">=8.0.0 <7.0.0"
+    "npm": ">=5.2.0",
+    "node": ">=8.1.0 <7.0.0"
   },
   "dependencies": {
     "copy-webpack-plugin": "4.0.1",

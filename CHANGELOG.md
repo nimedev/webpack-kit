@@ -1,5 +1,11 @@
 # Change Log
 
+## [11.0.3] - 2017-07-12
+
+### Updated
+- Install dependencies with npm@5.2.0.
+
+
 ## [11.0.2] - 2017-07-12
 
 ### Updated
