@@ -4,10 +4,12 @@
 
 'use strict'
 
+const webpack = require('webpack')
+
 /**
  * Configuration for webpack-dev-server
  */
-module.exports = (webpack, { host, port, contentBase = './src' }) => ({
+module.exports = ({ host, port, contentBase = './src' }) => ({
   devServer: {
     contentBase,
 
