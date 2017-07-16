@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/nimedev/webpack-kit#readme",
   "engines": {
-    "npm": ">=5.2.0",
-    "node": ">=8.1.0 <7.0.0"
+    "npm": ">=5.3.0",
+    "node": ">=8.1.4 <9.0.0"
   },
   "dependencies": {
     "copy-webpack-plugin": "4.0.1",
