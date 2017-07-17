@@ -1,5 +1,18 @@
 # Change Log
 
+## [12.0.0] - 2017-07-17
+
+### Added
+- Add more option to extract-vendor block.
+
+### Modified
+- [Breaking change] Remove webpack parameter in dev-server and extract-vendor blocks.
+
+### Updated
+- Update engines versions.
+- Upgrade peerDep: webpack.
+
+
 ## [11.0.3] - 2017-07-12
 
 ### Updated
