@@ -4,20 +4,30 @@
 
 'use strict'
 
-const webpack = require('webpack')
+const { CommonsChunkPlugin } = require('webpack').optimize
 
-const isVendor = module => /node_modules/.test(module.resource)
+const isVendor = module => /node_modules/.test(module.context)
 
 /**
  * Configuration for splitting bundles
  */
-module.exports = ({ chunks, name = 'vendor', minChunks = isVendor } = {}) => ({
+module.exports = (
+  {
+    name = 'vendor',
+    names,
+    filename,
+    minChunks = isVendor,
+    chunks,
+  } = {}
+) => ({
   plugins: [
     // Extract bundles.
-    new webpack.optimize.CommonsChunkPlugin({
-      chunks,
+    new CommonsChunkPlugin({
       name,
+      names,
       minChunks,
+      filename,
+      chunks,
     }),
   ],
 })
