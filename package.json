@@ -1,6 +1,6 @@
 {
   "name": "webpack-kit-nimedev",
-  "version": "12.0.0",
+  "version": "12.0.1",
   "description": "Configuration block to use in webpack config.",
   "main": "index.js",
   "scripts": {
