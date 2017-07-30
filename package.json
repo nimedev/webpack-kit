@@ -39,17 +39,17 @@
     "url-loader": "0.5.9"
   },
   "devDependencies": {
-    "eslint": "4.2.0",
+    "eslint": "4.3.0",
     "eslint-config-nimedev-base": "5.1.0",
     "eslint-plugin-import": "2.7.0",
-    "stylelint": "7.13.0",
-    "webpack": "3.3.0",
-    "webpack-dev-server": "2.5.1"
+    "stylelint": "8.0.0",
+    "webpack": "3.4.1",
+    "webpack-dev-server": "2.6.1"
   },
   "peerDependencies": {
-    "stylelint": "^7.13.0",
-    "webpack": "^3.3.0",
-    "webpack-dev-server": "^2.5.1"
+    "stylelint": "^8.0.0",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
   },
   "eslintConfig": {
     "extends": "nimedev-base"
