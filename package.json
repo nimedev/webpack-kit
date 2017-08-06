@@ -39,7 +39,7 @@
     "url-loader": "0.5.9"
   },
   "devDependencies": {
-    "eslint": "4.3.0",
+    "eslint": "4.4.0",
     "eslint-config-nimedev-base": "5.1.0",
     "eslint-plugin-import": "2.7.0",
     "stylelint": "8.0.0",
