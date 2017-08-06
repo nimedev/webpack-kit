@@ -1,5 +1,12 @@
 # Change Log
 
+## [12.0.2] - 2017-08-06
+
+### Updated
+- Upgrade dep: html-webpack-plugin svg-sprite-loader.
+- Upgrade devDep: eslint.
+
+
 ## [12.0.1] - 2017-07-29
 
 ### Updated
