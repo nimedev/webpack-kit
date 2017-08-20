@@ -39,11 +39,11 @@
     "url-loader": "0.5.9"
   },
   "devDependencies": {
-    "eslint": "4.4.1",
+    "eslint": "4.5.0",
     "eslint-config-nimedev-base": "5.1.0",
     "eslint-plugin-import": "2.7.0",
     "stylelint": "8.0.0",
-    "webpack": "3.5.4",
+    "webpack": "3.5.5",
     "webpack-dev-server": "2.7.1"
   },
   "peerDependencies": {
