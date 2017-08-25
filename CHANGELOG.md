@@ -1,5 +1,12 @@
 # Change Log
 
+## [12.0.5] - 2017-08-25
+
+### Updated
+- Upgrade dep: svg-sprite-loader.
+- Upgrade devDep: eslint-config-nimedev-base.
+
+
 ## [12.0.4] - 2017-08-20
 
 ### Updated
