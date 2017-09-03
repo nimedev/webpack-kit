@@ -1,5 +1,18 @@
 # Change Log
 
+## [13.0.0] - 2017-09-03
+
+### Added
+- Implement: add bundle-analyzer plugin.
+
+### Modified
+- [Breaking change] Move: webpack-dev-server to dependencies.
+
+### Updated
+- Update: packages.json engines.
+- Upgrade devDep: eslint.
+
+
 ## [12.0.6] - 2017-09-01
 
 ### Updated

@@ -1,10 +1,10 @@
 /**
  * Group blocks of webpack configurations
- * @module webpack-kit-nimedev
  */
 
 'use strict'
 
+const bundleAnalyzer = require('./blocks/bundle-analyzer')
 const copyPlugin = require('./blocks/copy-plugin')
 const devServer = require('./blocks/dev-server')
 const extractVendor = require('./blocks/extract-vendor')
@@ -18,6 +18,7 @@ const loadImages = require('./blocks/load-images')
 const loadSvgSprite = require('./blocks/load-svg-sprite')
 
 module.exports = {
+  bundleAnalyzer,
   copyPlugin,
   devServer,
   extractVendor,
