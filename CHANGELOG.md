@@ -1,5 +1,14 @@
 # Change Log
 
+## [13.2.0] - 2017-09-07
+
+### Deleted
+- Deleted: remove cache-loader module.
+
+### Updated
+- Upgrade devDep: stylelint webpack.
+
+
 ## [13.1.0] - 2017-09-07
 
 ### Add

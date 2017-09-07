@@ -1,7 +1,3 @@
-/**
- * @module load-css
- */
-
 'use strict'
 
 const minimize = {
@@ -20,7 +16,6 @@ module.exports = ({ include, useExportsLoader = false }) => ({
       test: /\.css$/,
       include, // Restrict extraction process to the given paths.
       use: [
-        'cache-loader',
         useExportsLoader ? 'exports-loader?module.exports.toString()' : 'style-loader',
         {
           loader: 'css-loader',
