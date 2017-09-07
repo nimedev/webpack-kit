@@ -1,5 +1,11 @@
 # Change Log
 
+## [13.1.0] - 2017-09-07
+
+### Add
+- Use cache-loader to loadCSS block.
+
+
 ## [13.0.0] - 2017-09-03
 
 ### Added
