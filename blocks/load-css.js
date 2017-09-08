@@ -2,9 +2,9 @@
 
 const minimize = {
   reduceIdents: {
-    keyframes: false,
+    keyframes: false
   },
-  zindex: false,
+  zindex: false
 }
 
 /**
@@ -24,11 +24,11 @@ module.exports = ({ include, useExportsLoader = false }) => ({
             importLoaders: 1,
 
             // Use css nano options
-            minimize: process.env.NODE_ENV === 'production' ? minimize : false,
-          },
+            minimize: process.env.NODE_ENV === 'production' ? minimize : false
+          }
         },
-        'postcss-loader',
-      ],
-    }],
-  },
+        'postcss-loader'
+      ]
+    }]
+  }
 })

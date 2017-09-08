@@ -1,7 +1,3 @@
-/**
- * @module load-html
- */
-
 'use strict'
 
 /**
@@ -12,7 +8,7 @@ module.exports = ({ include }) => ({
     rules: [{
       test: /\.html$/,
       include,
-      use: 'html-loader',
-    }],
-  },
+      use: 'html-loader'
+    }]
+  }
 })

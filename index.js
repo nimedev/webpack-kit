@@ -29,5 +29,5 @@ module.exports = {
   loadFonts,
   loadHtml,
   loadImages,
-  loadSvgSprite,
+  loadSvgSprite
 }

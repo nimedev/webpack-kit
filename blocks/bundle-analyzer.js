@@ -3,7 +3,7 @@
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 
 const defaultOptions = {
-  analyzerMode: 'static',
+  analyzerMode: 'static'
 }
 
 /**
@@ -11,6 +11,6 @@ const defaultOptions = {
  */
 module.exports = (options = defaultOptions) => ({
   plugins: [
-    new BundleAnalyzerPlugin(options),
-  ],
+    new BundleAnalyzerPlugin(options)
+  ]
 })

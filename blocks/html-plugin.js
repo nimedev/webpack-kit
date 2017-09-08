@@ -1,7 +1,3 @@
-/**
- * @module html-plugin
- */
-
 'use strict'
 
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -26,8 +22,8 @@ module.exports = (options = {}, packages) => ({
     new HtmlWebpackPlugin(Object.assign(
       options,
       {
-        chunksSortMode: packages ? sortChunk(packages) : 'auto',
+        chunksSortMode: packages ? sortChunk(packages) : 'auto'
       }
-    )),
-  ],
+    ))
+  ]
 })

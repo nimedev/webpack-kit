@@ -1,7 +1,3 @@
-/**
- * @module extract-vendor
- */
-
 'use strict'
 
 const { CommonsChunkPlugin } = require('webpack').optimize
@@ -17,7 +13,7 @@ module.exports = (
     names,
     filename,
     minChunks = isVendor,
-    chunks,
+    chunks
   } = {}
 ) => ({
   plugins: [
@@ -27,7 +23,7 @@ module.exports = (
       names,
       minChunks,
       filename,
-      chunks,
-    }),
-  ],
+      chunks
+    })
+  ]
 })

@@ -1,7 +1,3 @@
-/**
- * @module load-fonts
- */
-
 'use strict'
 
 /**
@@ -19,15 +15,15 @@ module.exports = ({ include, woffOptions = {} }) => ({
       options: Object.assign({
         name: './assets/fonts/[name].[hash].[ext]',
         limit: 50000,
-        mimetype: 'application/font-woff',
-      }, woffOptions),
+        mimetype: 'application/font-woff'
+      }, woffOptions)
     }, {
       test: /\.(ttf|svg|eot)$/,
       include,
       loader: 'file-loader',
       options: {
-        name: './assets/fonts/[name].[hash].[ext]',
-      },
-    }],
-  },
+        name: './assets/fonts/[name].[hash].[ext]'
+      }
+    }]
+  }
 })

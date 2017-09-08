@@ -1,5 +1,13 @@
 # Change Log
 
+## [13.3.0] - 2017-09-19
+
+### Modified
+- Use standard lint instead eslint-config-nimedev-base.
+- Improve load-svg-sprite block to work in extract mode.
+- Improve extract-css block to work with multiple output files.
+
+
 ## [13.2.0] - 2017-09-07
 
 ### Deleted

@@ -1,7 +1,3 @@
-/**
- * @module dev-server
- */
-
 'use strict'
 
 const webpack = require('webpack')
@@ -37,7 +33,7 @@ module.exports = ({ host, port, contentBase = './src' }) => ({
     // 0.0.0.0 is available to all network devices
     // unlike default `localhost`.
     host, // Defaults to `localhost`
-    port, // Defaults to 8080
+    port // Defaults to 8080
   },
   plugins: [
     // Enable multi-pass compilation for enhanced performance
@@ -45,6 +41,6 @@ module.exports = ({ host, port, contentBase = './src' }) => ({
     new webpack.HotModuleReplacementPlugin({
       // Disabled as this won't work with html-webpack-template yet
       // multiStep: true
-    }),
-  ],
+    })
+  ]
 })
