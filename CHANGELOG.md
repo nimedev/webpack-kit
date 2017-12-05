@@ -1,5 +1,11 @@
 # Change Log
 
+## [14.0.2] - 2017-12-05
+
+### Fixed
+- Fix default use in loadSvgSprite.
+
+
 ## [14.0.1] - 2017-12-05
 
 ### Fixed
