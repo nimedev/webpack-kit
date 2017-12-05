@@ -1,5 +1,11 @@
 # Change Log
 
+## [14.0.1] - 2017-12-05
+
+### Fixed
+- Fix loadSvgSprite function when no use extract mode.
+
+
 ## [14.0.0] - 2017-12-05
 
 ### Modified
