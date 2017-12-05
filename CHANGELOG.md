@@ -1,5 +1,11 @@
 # Change Log
 
+## [14.1.0] - 2017-12-05
+
+### Added
+- Add loadFontsInline block.
+
+
 ## [14.0.2] - 2017-12-05
 
 ### Fixed
