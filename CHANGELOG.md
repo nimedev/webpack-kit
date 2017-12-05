@@ -1,5 +1,11 @@
 # Change Log
 
+## [14.0.0] - 2017-12-05
+
+### Modified
+- Rebuild all blocks.
+
+
 ## [13.3.0] - 2017-09-19
 
 ### Modified

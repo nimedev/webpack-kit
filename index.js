@@ -1,33 +1,29 @@
-/**
- * Group blocks of webpack configurations
- */
-
 'use strict'
 
-const bundleAnalyzer = require('./blocks/bundle-analyzer')
-const copyPlugin = require('./blocks/copy-plugin')
-const devServer = require('./blocks/dev-server')
-const extractVendor = require('./blocks/extract-vendor')
-const extractCSS = require('./blocks/extract-css')
-const htmlPlugin = require('./blocks/html-plugin')
-const lintCSS = require('./blocks/lint-css')
-const loadCSS = require('./blocks/load-css')
-const loadFonts = require('./blocks/load-fonts')
-const loadHtml = require('./blocks/load-html')
-const loadImages = require('./blocks/load-images')
-const loadSvgSprite = require('./blocks/load-svg-sprite')
+const bundleAnalyzer = require('./lib/bundle-analyzer')
+const circularDependency = require('./lib/circular-dependency')
+const copyPlugin = require('./lib/copy-plugin')
+const devServer = require('./lib/dev-server')
+const extractFonts = require('./lib/extract-fonts')
+const extractPostCSS = require('./lib/extract-postcss')
+const htmlPlugin = require('./lib/html-plugin')
+const lintCSS = require('./lib/lint-css')
+const loadFonts = require('./lib/load-fonts')
+const loadImages = require('./lib/load-images')
+const loadPostCSS = require('./lib/load-postcss')
+const loadSvgSprite = require('./lib/load-svg-sprite')
 
 module.exports = {
   bundleAnalyzer,
+  circularDependency,
   copyPlugin,
   devServer,
-  extractVendor,
-  extractCSS,
+  extractFonts,
+  extractPostCSS,
   htmlPlugin,
   lintCSS,
-  loadCSS,
   loadFonts,
-  loadHtml,
   loadImages,
+  loadPostCSS,
   loadSvgSprite
 }

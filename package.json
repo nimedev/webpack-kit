@@ -1,7 +1,7 @@
 {
   "name": "webpack-kit-nimedev",
-  "version": "13.3.0",
-  "description": "Configuration block to use in webpack config.",
+  "version": "14.0.0",
+  "description": "Configuration blocks to use in webpack config.",
   "main": "index.js",
   "scripts": {
     "lint": "standard"
@@ -12,6 +12,7 @@
   },
   "keywords": [
     "webpack",
+    "webpack config",
     "webpack merge"
   ],
   "author": "Nicolás Mejía Correa <nicolasmejiaco@gmail.com> (https://twitter.com/nimedev)",
@@ -22,31 +23,33 @@
   "homepage": "https://github.com/nimedev/webpack-kit#readme",
   "engines": {
     "npm": ">=5.4.0",
-    "node": ">=8.3.0"
-  },
-  "dependencies": {
-    "copy-webpack-plugin": "4.0.1",
-    "css-loader": "0.28.7",
-    "exports-loader": "0.6.4",
-    "extract-text-webpack-plugin": "3.0.0",
-    "file-loader": "0.11.2",
-    "html-loader": "0.5.1",
-    "html-webpack-plugin": "2.30.1",
-    "postcss-loader": "2.0.6",
-    "style-loader": "0.18.2",
-    "stylelint-webpack-plugin": "0.9.0",
-    "svg-sprite-loader": "3.2.5",
-    "url-loader": "0.5.9",
-    "webpack-bundle-analyzer": "2.9.0",
-    "webpack-dev-server": "2.7.1"
+    "node": ">=8.6.0"
   },
   "devDependencies": {
-    "standard": "10.0.3",
-    "stylelint": "8.1.1",
-    "webpack": "3.5.6"
+    "standard": "^10.0.3"
   },
-  "peerDependencies": {
-    "stylelint": "^8.0.0",
-    "webpack": "^3.5.0"
+  "dependencies": {
+    "circular-dependency-plugin": "^4.2.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "copy-webpack-plugin": "^4.2.3",
+    "css-loader": "^0.28.7",
+    "exports-loader": "^0.6.4",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "postcss-loader": "^2.0.9",
+    "postcss-sass": "^0.2.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.19.0",
+    "stylelint": "^8.3.1",
+    "stylelint-webpack-plugin": "^0.9.0",
+    "svg-sprite-loader": "^3.4.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-bundle-analyzer": "^2.9.1",
+    "webpack-concat-plugin": "^1.4.2",
+    "webpack-dev-server": "^2.9.5",
+    "webpack-merge": "^4.1.1"
   }
 }
