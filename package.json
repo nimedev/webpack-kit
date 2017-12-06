@@ -1,10 +1,11 @@
 {
   "name": "webpack-kit-nimedev",
-  "version": "14.1.0",
+  "version": "14.1.1",
   "description": "Configuration blocks to use in webpack config.",
   "main": "index.js",
   "scripts": {
-    "lint": "standard"
+    "lint": "standard",
+    "test": "npm run lint && ava"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "node": ">=8.6.0"
   },
   "devDependencies": {
+    "ava": "^0.24.0",
     "standard": "^10.0.3"
   },
   "dependencies": {
